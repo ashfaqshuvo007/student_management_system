@@ -1,0 +1,8 @@
+Improvements Required: 
+=======================
+Controllers
+-----------
+
+1. DashboardController*****
+    > Follow Laravel Syntax for querybuilder
+        

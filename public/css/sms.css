@@ -1,0 +1,496 @@
+/*
+* Globals
+*/
+
+@media (min-width: 48em) {
+    html {
+        font-size: 17px;
+    }}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.d-none {
+    display: none;
+}
+
+.hover-pointer:hover {
+    cursor: pointer;
+}
+
+
+/*
+* Override Bootstrap's default container.
+*/
+
+
+.container {
+    max-width: 60rem;
+}
+
+.main-navigation-bottom {
+    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 6vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.52s ease;
+    overflow-y: hidden;
+    overflow-x: hidden !important;
+}
+
+.main-navigation-bottom:hover {
+    height: 45vh;
+}
+
+#nav-links {
+    margin-top: 50px;
+}
+
+.main-navigation-bottom nav a:first-child {
+    margin-top: 1em;
+}
+
+.main-navigation-bottom nav a:last-child {
+    margin-bottom: 1em;
+}
+
+.main-navigation-bottom ul {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation-bottom ul li {
+    margin-top: 10px;
+    font-size: 0.72em;
+}
+
+.main-navigation-bottom ul li a {
+    text-decoration: none;
+}
+
+/********************** Navigation Links CSS **********************/
+
+.main-navigation-bottom ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    transition: 0.35s ease;
+}
+
+.main-navigation-bottom ul li:hover,
+.main-navigation-bottom ul li:focus {
+    transform: translateX(20px);
+}
+
+.main-navigation-bottom a:hover {
+    color: currentColor;
+}
+
+.round {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+    border: 2px solid currentColor;
+    border-radius: 100%;
+}
+
+#quickLinks a {
+    width: 150%;
+}
+
+/********************** Nav Name and Description **********************/
+
+
+.blog-header {
+    height: 100px;
+    /* margin-bottom: 1rem; */
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#headBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+a:link#pageName {
+    text-decoration: none;
+}
+
+.blog-title {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
+
+.main-content {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 40em) {
+    .blog-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #page-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* width sizing in percentage */
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+
+/********************** Buttons CSS **********************/
+
+.btn {
+    color: white;
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #00ACC1;
+    border-color: #00ACC1;
+}
+
+.btn-twitter:hover {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4;
+}
+
+.btn:link,
+.btn:hover,
+.btn:active .btn:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0 20px 5px -14px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn-purple {
+    background-color: #404779;
+}
+
+.btn-purple:hover {
+    background-color: #4A5995;
+}
+
+.btn-green {
+    background-color: #1D9088;
+}
+
+.btn-green:hover {
+    background-color: #28A69C;
+}
+
+.btn-earth {
+    background-color: #FF7378;
+}
+
+.btn-earth:hover {
+    background-color: #FF6564;
+}
+
+.btn-disabled {
+    background-color: #E0E0E0 !important;
+    color: #BDBDBD !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.btn-disabled :hover{
+    background-color: #E0E0E0 !important;
+}
+
+.home-btn {
+    width: 400px;
+}
+
+.logout-button {
+    padding: 10px;
+    color: white;
+    background-color: #FF6564;
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    transition: 0.2s;
+}
+
+.logout-button:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.home-global-icon {
+    font-size: 1.8em !important;
+    transition: 0.2s all;
+}
+
+.home-global-icon:hover {
+    color: #FF7378;
+}
+
+#presentAbsentButton .btn {
+    width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    font-size: 15em;
+    text-shadow: 0 0 31px rgba(0, 0, 0, 0.2);
+    font-family: 'Bungee', cursive;
+    overflow: hidden;
+}
+
+/********************** Text CSS **********************/
+
+.text-85 {
+    font-size: 0.85rem;
+}
+
+.text-purple {
+    color: #4A5995
+}
+
+.text-purple:hover {
+    color: #404779;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-green:hover {
+    color: #28A69C;
+}
+
+.text-earth {
+    color: #FF8480;
+}
+
+.text-earth:hover {
+    color: #FF6564;
+}
+
+.text-admin {
+    color: #29AF52;
+}
+
+.text-admin:hover {
+    color: #31D271;
+}
+
+.text-twitter {
+    color: #00ACC1;
+}
+
+.text-twitter:hover {
+    color: #00BCD4;
+}
+
+/***** Text End *****/
+
+/* background Flat Color CSS */
+.bg-purple {
+    background-color: #404779;
+}
+
+/* End of background Flat Color CSS */
+
+/********************** Background Gradient CSS **********************/
+
+.gbg-green {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+}
+
+.gbg-red {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+}
+
+.gbg-purple {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa);
+}
+
+.gbg-teal {
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+}
+
+.mat-shadow-lg,
+.mat-shadowsmh {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4);
+}
+
+.mat-shadow-sm,
+.mat-shadowsmh {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+}
+
+/********************** Student Attendance Checkbox **********************/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 120px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FF6564;
+    color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.2);
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.slider:hover {
+    box-shadow: 0 20px 5px -14px rgba(0, 0, 0, 0.3);
+    background-color: #FF8480;
+}
+
+input:checked+.slider {
+    background-color: #1D9088;
+}
+
+input:checked+.slider:hover {
+    background-color: #28A69C;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #28A69C;
+    box-shadow: 0 20px 5px -14px rgba(0, 0, 0, 0.3);
+    background-color: #555555;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.pointer-null {
+    pointer-events: none;
+}
+
+
+/********************** Media Queries **********************/
+
+@media only screen and (max-width:768px) {
+    #dashboard #btn-studentAttendance {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    #dashboard #btn-assignStudent {
+        margin-bottom: 3em;
+    }
+
+    .main-navigation-bottom {
+        overflow-y: scroll !important;
+    }
+
+    .main-navigation-bottom:hover {
+        height: 70vh;
+    }
+
+    .home-btn {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .w-md-50 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .w-100-sm {
+        width: 100%;
+    }
+}
+
+/********************** Table Pagination CSS **********************/
+
+.table-pagination li {
+    padding: 0px 6px;
+}
+
+.table-pagination li.active {
+    border: 1px solid #0288D1;
+    background: transparent;
+    color:black;
+    border-radius: .85rem;
+}
+
+
+.table-pagination li:first-child span,
+.table-pagination li:last-child span {
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.table-pagination li:first-child a,
+.table-pagination li:last-child a {
+    color: grey;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.table-pagination li:first-child a:hover,
+.table-pagination li:last-child a:hover {
+    background: hsla(0, 0%, 50%, .2);
+}
+
+/********************** Hidden Input **********************/
+
+.hidden-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

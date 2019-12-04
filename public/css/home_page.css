@@ -1,0 +1,136 @@
+A {
+    text-decoration: none;
+}
+A:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.onlym{
+    margin: 0;
+}
+.cards {
+    width: 100%;
+    background: linear-gradient(-45deg ,#0288D1,#03A9F4); 
+    border-radius: 10px;
+    /* margin: 0; */
+}
+.cards h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.pd_1p5{
+    padding: 1.5rem;
+}
+.w70p{
+    width: 85%;
+}
+/* .bg-w{
+    background: #FFFFFF;
+} */
+.curve_edges{
+    border-radius: 10px;   
+}
+/* .active{
+    background: linear-gradient(-45deg ,#0288D1,#03A9F4); 
+    color: #ffff;
+} */
+.active svg{
+    fill:#ffff;
+}
+
+.micon:hover{
+    fill: #03A9F4;
+}
+
+.w30vw{
+    width: 30vw;
+}
+
+ul{
+    width: 80%;
+}
+
+.smalltext{
+    font-size: 11px;
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 767px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .smw50vw{
+        width: 92vw;
+    }
+    .w80sp{
+        width: 100%;
+    }
+    .cards{
+        width: 90%;
+    }
+    .xscol{
+        flex-direction: column !important; 
+    }
+    .nocenter{
+        justify-content: flex-start;
+    }
+    .xsm-pl0{
+        padding-left: 0;
+    }
+    .newf{
+        font-size: 2rem;
+    }
+
+    ul{
+        width: 100%;
+    }
+    .pt_5 {
+        padding-top: 0;
+    }
+    .onlym{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1023px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .onlym{
+        margin-top: 1rem;
+    }
+    .smw50vw{
+        width: 77vw;
+    }
+    .tbaligncenter{
+        align-self: center;
+    }
+    .cards{
+        width: 70%;
+    }
+    .xscol{
+        flex-direction: column !important; 
+    }
+    .nocenter{
+        justify-content: flex-start;
+    }
+    .xsm-pl0{
+        padding-left: 0;
+    }
+    .newf{
+        font-size: 2rem;
+    }
+    .w80sp{
+        width: 95%;
+    } 
+    .pad0{
+        padding: 0;
+    }   
+    ul{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1200px){
+    .onlypad{
+        padding: 0;
+    }
+}
